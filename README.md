@@ -6,9 +6,9 @@ university-android-task6
 Задание <br/>
 
 1. Реализовать экран StudentTaskActivity, показывающий список* заголовков новостей http://androidtraining.noveogroup.com/news/getAll
+2. Формат ответов можно посмотреть http://androidtraining.noveogroup.com/main/requestFormat
+3. Пока новости загружаются, пользователю должен быть показан ProgressDialog.
+4. Сделать реализацию асинхронного поведения через AsyncTask и Callback. 
 
-2. Пока новости загружаются, пользователю должен быть показан ProgressDialog.
-3. Использовать AsyncTask или Service для реализации асинхронного поведения.
-4. Формат ответов можно посмотреть http://androidtraining.noveogroup.com/main/requestFormat
-
-* Можно так же показывать в элементах списка картинки, используя square/picasso
+* так же показывать в элементах списка картинки, используя square/picasso
+* можно попробовать сделать реализацию асинхронного поведения и через RxJava Observable. 
