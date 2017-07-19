@@ -3,14 +3,14 @@ package com.noveo.traineeship.network.activities;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import com.noveo.traineeship.network.R;
 
-public class HandlerActivity extends ActionBarActivity{
+public class HandlerActivity extends AppCompatActivity {
     private TextView textView;
 
     @Override

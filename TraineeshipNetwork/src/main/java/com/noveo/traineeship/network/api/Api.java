@@ -4,7 +4,8 @@ import com.noveo.traineeship.network.models.News;
 
 import java.util.List;
 
-import retrofit.http.GET;
+import retrofit2.http.GET;
+
 
 public interface Api {
     public static final String END_POINT = "http://androidtraining.noveogroup.com/news";

@@ -5,16 +5,15 @@ import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.noveo.traineeship.network.R;
 
 import java.util.concurrent.TimeUnit;
 
-public class AsyncTaskActivity extends ActionBarActivity {
+public class AsyncTaskActivity extends AppCompatActivity {
     private static final String TAG = "async_task_activity";
     private TextView textView;
     private DialogAsyncTask currentTask;
